@@ -2,6 +2,12 @@
 
 jQuery snippet to display the screen width on browser/device resize.
 
+```js
+$(window).resize(function() {
+    $("#ratio").html($(window).width());
+}).resize();
+```
+
 Just add the ratio.js to your page and then the following HTML snippet.
 
 ```html
